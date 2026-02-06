@@ -37,3 +37,4 @@ description: Analyzes Suricata EVE JSON logs using Python, DuckDB, polars, and j
 - Use `duckdb` to query Parquet efficiently.
 - Use `uv` (not `pip`) for virtualenvs and dependency installs.
 - Do not hardcode filenames; take input paths from `sys.argv` (avoid `argparse` unless the user requests it).
+- Create a virtual environment with `uv` and maintain a `requirements.txt` file so you have all the libraries you need
