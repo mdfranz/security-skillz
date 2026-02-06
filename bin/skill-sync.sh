@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SOURCE_BASE="${GEMINI_SKILLS_SOURCE:-$HOME/.gemini/skills}"
-DEST_BASE="${SEC_SKILLZ_REPO:-$HOME/github/sec-skillz}"
+DEST_BASE="${SEC_SKILLZ_REPO:-$HOME/github/sec-skillz/skills}"
 
 # 2. Check for the skill name argument
 if [ -z "$1" ]; then
